@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EXERCICE 12</title>
+</head>
+<body>
+    <h1>Formation d'inscription:</h1> 
+    <fieldset>
+    <legend>Member de l'hotel</legend>
+    <form name="form" action="envoyer.html" method="get">
+        <label for="nom et prenom">Nom et Prenom :</label>
+         <input type="text " name="text" id="nom">
+         <br><br>
+        <label >Vous etes member? <BR>
+            <input type="radio" name="Vous etes member?" id="Oui">
+            <label for="Oui">Oui</label>
+            <INPut type="radio" name="Vous etes member?" id="Non">
+            <label for="Non">Non</label>
+        </label> 
+        <br><br>
+        <label for="Email">Email :</label>
+        <input type="text" name="text" id="Email">
+    </form>
+    </fieldset>
+    <br>
+    <span>Fonction</span>
+    <select name="fonction" id="fonction">
+        <option value="fonctionnaire">fonctionnaire</option>
+        <option value="visit">visite</option>
+        <option value="fam">familiare</option>
+    </select>
+    <p>Selectionner une reservation :</p>
+    <input type="date" name="date" id="date">
+    <input type="time" name="time" id="time">
+    <br><br>
+    <input type="radio" name="condition" id="condition">
+     <label for="conditon">j'accepte les conditions de la réservation del'hotél</label>
+     <br><br><br>
+    <input type="submit" name="envoyer" id="send">
+    
+    
+
+</body>
+</html>
